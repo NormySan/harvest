@@ -1,0 +1,25 @@
+{
+    "name": "oddhill/harvest",
+    "description": "Harvest API provider with full coverage of all endpoints.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christoffer Palm",
+            "email": "christoffer.palm@oddhill.se"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "~4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.0.*",
+        "phpspec/phpspec": "~2.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "OddHill\\Harvest": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
